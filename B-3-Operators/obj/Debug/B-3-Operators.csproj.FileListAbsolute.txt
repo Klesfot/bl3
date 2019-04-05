@@ -1,0 +1,7 @@
+C:\Users\1\Source\Repos\bl3\B-3-Operators\obj\Debug\B-3-Operators.csprojAssemblyReference.cache
+C:\Users\1\Source\Repos\bl3\B-3-Operators\obj\Debug\B-3-Operators.csproj.CoreCompileInputs.cache
+C:\Users\1\Source\Repos\bl3\B-3-Operators\bin\Debug\B-3-Operators.exe.config
+C:\Users\1\Source\Repos\bl3\B-3-Operators\bin\Debug\B-3-Operators.exe
+C:\Users\1\Source\Repos\bl3\B-3-Operators\bin\Debug\B-3-Operators.pdb
+C:\Users\1\Source\Repos\bl3\B-3-Operators\obj\Debug\B-3-Operators.exe
+C:\Users\1\Source\Repos\bl3\B-3-Operators\obj\Debug\B-3-Operators.pdb

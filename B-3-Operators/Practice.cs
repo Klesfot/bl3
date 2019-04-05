@@ -77,7 +77,12 @@ namespace B_3_Operators
         /// </summary>
         public static void B3_P8_9_CircleArea()
         {
+            Console.WriteLine("Please input desired circle's rad: ");
 
+            double rad = Convert.ToDouble(Console.ReadLine().Replace(".",","));
+            double circleArea = 3.14 * (rad * rad);
+
+            Console.WriteLine("Your circle's area is: " + circleArea);
         }
 
         /// <summary>
@@ -85,6 +90,30 @@ namespace B_3_Operators
         /// </summary>
         public static void B3_P9_9_CreaditCalculator()
         {
+            Console.WriteLine("Please input desired credit: ");
+            double creditSum = Convert.ToDouble(Console.ReadLine().Replace(".",","));
+
+            Console.WriteLine("Please input desired credit interest rate: ");
+            double creditRate = Convert.ToDouble(Console.ReadLine().Replace(".", ","));
+            Console.WriteLine("Payments per month: " + creditRate);
+
+            int ctr = 1;
+            double payment;
+            double paymentSum = 0;
+            creditRate /= 100; // перевод creditRate в проценты для упрощения формулы расчёта суммы выплат
+
+            while (ctr <= 12)
+            {
+                payment = creditSum * creditRate;
+                paymentSum = paymentSum + payment;
+                creditSum -= payment;
+                Console.WriteLine("Payment for month " + ctr + ": " + payment);
+                if (ctr == 12)
+                {
+                    Console.WriteLine("Overall for this credit you will be charged: " + paymentSum);
+                }
+                ctr++;
+            }
 
         }
     }
